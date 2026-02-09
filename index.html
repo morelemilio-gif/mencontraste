@@ -3,20 +3,71 @@
 <head>
   <meta charset="UTF-8" />
   <title>MENCONTRASTE</title>
-  <meta name="description" content="Servicios y productos de tu zona" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <style>
     body {
       margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f5f7fa;
+      color: #111;
+    }
+
+    .container {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       padding: 40px;
-      font-family: system-ui, sans-serif;
+    }
+
+    .card {
       background: #ffffff;
+      padding: 48px;
+      max-width: 520px;
+      width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 12px;
+      letter-spacing: 1px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 32px;
+    }
+
+    button {
+      background: #000;
+      color: #fff;
+      border: none;
+      padding: 14px 24px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #222;
     }
   </style>
 </head>
+
 <body>
-  <h1>MENCONTRASTE</h1>
-  <p>Servicios y productos de tu zona</p>
+  <div class="container">
+    <div class="card">
+      <h1>MENCONTRASTE</h1>
+      <p>Servicios y productos de tu zona</p>
+      <button>Publicar mi servicio</button>
+    </div>
+  </div>
 </body>
 </html>
+
 
